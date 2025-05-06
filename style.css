@@ -122,6 +122,66 @@ nav a:hover {
     object-fit: cover;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   }
+
+  /* Technical education and skills */
+  .tech-section {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .tech-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #000;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  
+  .tech-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .tech-box {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.07);
+    padding: 2rem;
+    flex: 1 1 400px;
+    max-width: 500px;
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tech-box h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #111;
+  }
+  
+  .tech-box ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .tech-box li {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .tech-box li strong {
+    color: #000;
+  }
   
   
 
@@ -177,4 +237,8 @@ nav a, .logo {
    display: none;
   }
 
+/* Technical education and skills mobile */
+.tech-section h2 {
+    font-size: 1.5rem;
+  }
 }
