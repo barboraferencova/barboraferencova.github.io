@@ -159,10 +159,6 @@ nav a:hover {
     transition: transform 0.3s ease;
   }
   
-  .tech-box:hover {
-    transform: translateY(-5px);
-  }
-  
   .tech-box h3 {
     font-size: 1.4rem;
     margin-bottom: 1rem;
