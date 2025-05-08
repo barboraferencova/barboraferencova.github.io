@@ -264,12 +264,48 @@ nav a:hover {
     font-weight: bold;
     text-decoration: underline;
   }
+
+  .modal-content h4 {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #111;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3rem;
+  }
+  
+  .modal-content ul {
+    margin-top: 0.5rem;
+    margin-left: 1.2rem;
+    list-style: disc;
+    color: #333;
+  }
+  
+  .modal-content ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+  
+  .modal-gallery {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .modal-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    object-fit: contain; 
+  }
   
   .modal-image {
-   width: 100%;
-    border-radius: 8px;
-    margin-top: 1rem;
-  }
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 1rem 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
   
   .close {
     position: absolute;
