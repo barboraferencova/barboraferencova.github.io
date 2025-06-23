@@ -354,6 +354,10 @@ nav a:hover {
   font-size: 0.9rem;
   color: #aaa;
 }
+
+.site-footer li {
+  list-style: none;
+}
   
 
 /* Mobile version */
